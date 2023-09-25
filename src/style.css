@@ -1,0 +1,196 @@
+
+  .devices {
+    min-height: 100vh;
+    background-color: #eee;
+  }
+  .devices .bi {
+    padding: 0.4rem;
+    font-size: 1.8rem;
+  }
+  .devices img {
+    padding-inline: 0.4rem;
+    height: 1.8rem;
+  }
+  .devices .device-data {
+    border-radius: 40px;
+    padding: 1.56rem;
+    background-color: #f1e8e871;
+  }
+  .devices .device-data h4 {
+    padding-block: 1rem;
+  }
+  
+  .loginbox {
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginbox .main {
+    width: 25%;
+    height: 30rem;
+    background: red;
+    overflow: hidden;
+    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
+      no-repeat center/ cover;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+  }
+  .loginbox #chk {
+    display: none;
+  }
+  .loginbox .signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .loginbox label {
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  .loginbox input {
+    width: 60%;
+    height: 2.3rem;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 1rem auto;
+    padding: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .loginbox button {
+    width: 60%;
+    height: 2.9rem;
+    margin: 1rem auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+  .loginbox button:hover {
+    background: #6d44b8;
+  }
+  .loginbox .login {
+    height: 60rem;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-10rem);
+    transition: 0.8s ease-in-out;
+  }
+  .loginbox .login label {
+    color: #573b8a;
+    transform: scale(0.6);
+  }
+  
+  .loginbox #chk:checked ~ .login {
+    transform: translateY(-35rem);
+  }
+  .loginbox #chk:checked ~ .login label {
+    transform: scale(1);
+  }
+  .loginbox #chk:checked ~ .signup label {
+    transform: scale(0.6);
+  }
+  .loginbox p {
+    justify-content: center;
+    display: flex;
+  
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .logincon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginbox img {
+    height: 2rem;
+  }
+  .loginbox .logincon .loginbtn {
+    width: 5rem;
+    display: inline-block;
+    background: #eee;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    outline: none;
+    border: none;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+
+  .device{
+    padding-inline: 0.4rem;
+    height: 1.8rem;
+  }
+  .jj{
+    display: flex;
+    justify-content: space-around;
+  }
+.ww{
+  background-color: red;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: white;
+}
+.tt{
+  color:cornflowerblue;
+}
+
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.popup-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+
+.pop2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.popp {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
